@@ -4,7 +4,7 @@ MNMLSM is a simple theme inspired by the command line. It has a darkmode and no 
 
 [Preview](preview.png)
 
-The theme was created by [Ungeschneuer](https://github.com/ungeschneuer) and has been edted by [DarkPlayer](https://github.com/DarkPlayerr). A preview can be found [here](https://DarkPlayerry.github.io).
+The theme was created by [Ungeschneuer](https://github.com/ungeschneuer) and has been edted by [DarkPlayer](https://github.com/DarkPlayerr). A preview can be found [here](https://DarkPlayerr.github.io).
 
 ## Getting Started
 
