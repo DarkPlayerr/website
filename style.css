@@ -5,6 +5,7 @@
     --background: white;
     --color: #232333;
     --accent: #e9333c;
+    --grey: #303436;
 }
 
 body{
@@ -52,7 +53,7 @@ footer{
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
-    border: solid var(--color) 2px;
+    border: solid var(--grey) 2px;
 }
 
 #userName{
@@ -80,7 +81,7 @@ footer{
     font-size: 1rem;
     font-weight: 500;
     border-radius: 5px;
-    border: dashed var(--color) 2px;
+    border: dashed var(--grey) 2px;
     text-align: center;
     text-decoration: none;
     color: var(--color);
