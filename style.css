@@ -4,6 +4,7 @@
     --font: 'Roboto Mono', monospace;
     --background: white;
     --color: #232333;
+    --accent: #e9333c;
 }
 
 body{
@@ -81,19 +82,31 @@ footer{
     border-radius: 5px;
     border: dashed var(--color) 2px;
     text-align: center;
-    text-decoration: none;  
-    color: var(--color);  
+    text-decoration: none;
+    color: var(--color);
     word-wrap: break-word;
 
 }
 
+.link:hover{
+    display: block;
+    margin-bottom: 20px;
+    padding: 17px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: dashed var(--accent) 2px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--accent);
+    word-wrap: break-word;
 
+}
 
 @media (prefers-color-scheme: dark) {
 
-    :root {        
-        --background: #202124;
+    :root {
+        --background: #0a0a0a;
         --color: white;
     }
   }
-  

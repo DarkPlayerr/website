@@ -2,11 +2,9 @@
 
 MNMLSM is a simple theme inspired by the command line. It has a darkmode and no javascript. In other words: it is future proof.
 
-Preview Light             |  Preview Dark
-:-------------------------:|:-------------------------:
-![Preview Light](preview-light.png) |   ![Preview Dark](preview-dark.png)
+[Preview](preview.png)
 
-The theme was created by [Ungeschneuer](https://github.com/ungeschneuer). A preview can be found [here](https://michaelbarney.github.io/LinkFree/Templates/mnmlsm/).
+The theme was created by [Ungeschneuer](https://github.com/ungeschneuer) and has been edted by [DarkPlayer](https://github.com/DarkPlayerr). A preview can be found [here](https://DarkPlayerry.github.io).
 
 ## Getting Started
 
@@ -37,10 +35,10 @@ Mac:
 Ctrl + Cmd + Space
 ```
 
-Windows 
+Windows
 ```
-Windows + ; (semi-colon) 
-``` 
+Windows + ; (semi-colon)
+```
 or
 ```
 Windows + . (period)
