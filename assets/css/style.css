@@ -20,7 +20,6 @@ body{
     min-height: 100vh;
     min-width: 100vw;
     flex-direction: column;
-
 }
 
 .container {
@@ -67,6 +66,10 @@ footer{
     color: var(--color);
 }
 
+#bio{
+    color: var(--color);
+}
+
 #links{
     max-width: 90%;
     width: auto;
@@ -103,3 +106,8 @@ footer{
     word-wrap: break-word;
 
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+} 
