@@ -1,11 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-BoldItalic.eot');
+    src: url('fonts/ProductSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans-BoldItalic.woff') format('woff'),
+        url('fonts/ProductSans-BoldItalic.svg#ProductSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-Bold.eot');
+    src: url('fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans-Bold.woff') format('woff'),
+        url('fonts/ProductSans-Bold.svg#ProductSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-Italic.eot');
+    src: url('fonts/ProductSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans-Italic.woff') format('woff'),
+        url('fonts/ProductSans-Italic.svg#ProductSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans-Regular.eot');
+    src: url('fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans-Regular.woff') format('woff'),
+        url('fonts/ProductSans-Regular.svg#ProductSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
-    --font: 'Roboto Mono', monospace;
+    --font: 'Product Sans';
     --background: #080808;
     --color: #FAF9F6;
     --accent: #e9333c;
-    --grey: #303436;
+    --grey1: #1C1E1F;
+    --grey2: #111213;
 }
 
 body{
@@ -52,13 +95,13 @@ footer{
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
-    border: solid var(--grey) 2px;
+    border: solid var(--grey1) 2px;
 }
 
 #userName{
     width: 100%;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 35;
+    font-weight: 500;
     text-align: center;
     text-decoration: none;
     line-height: 1.25;
@@ -68,6 +111,7 @@ footer{
 
 #bio{
     color: var(--color);
+    font-size: 18px;
 }
 
 #links{
@@ -75,36 +119,35 @@ footer{
     width: auto;
     display: block;
     margin: 27px auto;
+    color: var(--color);
 }
 
 .link{
     display: block;
     margin-bottom: 20px;
     padding: 17px;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 500;
-    border-radius: 5px;
-    border: dashed var(--grey) 2px;
     text-align: center;
     text-decoration: none;
     color: var(--color);
     word-wrap: break-word;
-
+    background-color: var(--grey2);
+    border-radius: 15px;
 }
 
 .link:hover{
     display: block;
     margin-bottom: 20px;
     padding: 17px;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 500;
-    border-radius: 5px;
-    border: dashed var(--accent) 2px;
     text-align: center;
     text-decoration: none;
     color: var(--accent);
     word-wrap: break-word;
-
+    background-color: var(--grey2);
+    border-radius: 15px;
 }
 
 a {
