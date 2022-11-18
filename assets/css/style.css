@@ -42,8 +42,6 @@
     font-display: swap;
 }
 
-font-family: var(--font), sans-serif;
-
 :root {
     --font: 'Product Sans';
     --background: #080808;
@@ -65,6 +63,7 @@ body{
     min-height: 100vh;
     min-width: 100vw;
     flex-direction: column;
+    font-family: var(--font), sans-serif;
 }
 
 .container {
