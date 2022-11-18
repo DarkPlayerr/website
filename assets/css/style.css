@@ -91,10 +91,10 @@ footer{
 }
 
 #userPhoto{
-    width: 96px;
-    height: 96px;
+    width: 120px;
+    height: 120px;
     display: block;
-    margin: 35px auto 20px;
+    margin: 0px auto 0px;
     border-radius: 50%;
     border: solid var(--grey1) 2px;
 }
