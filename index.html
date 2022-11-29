@@ -4,28 +4,82 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex,nofollow" />    <title>DarkPlayer</title>
+    <title>DarkPlayer</title>
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" href="assets/img/logo.png"/>
+    <link rel="icon" href="assets/img/icon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-    <div class="content">
-        <img id="userPhoto" src="assets/img/logo.png" alt="DarkPlayer Logo">
-        <h1><a href="#" id="userName" rel="noopener">DarkPlayer</a></h1>
-        <a id="bio">17. tech geek. designer. he/him</a>
-        <div id="links">
-            <a class="link" href="https://twitter.com/dvrkplayer" rel="noopener">Twitter</a>
-            <a class="link" rel="me" href="https://androiddev.social/@darkplayer">Mastodon</a>
-            <a class="link" href="https://github.com/DarkPlayerr" rel="noopener">GitHub</a>
-            <a class="link" href="https://t.me/dvrkplayer" rel="noopener">Telegram</a>
-        </div>
+    <header class="header">
+        <div id="header-content">
+            <img id="userPhoto" src="assets/img/logo.png" alt="DarkPlayer Logo">
+            <h1 id="userName">DarkPlayer</h1>
+            <span id="text">17. tech geek. designer. he/him</span>
+            <div id="links">
+                <a class="link" href="https://twitter.com/dvrkplayer" rel="noopener">Twitter</a>
+                <a class="link" rel="me" href="https://androiddev.social/@darkplayer">Mastodon</a>
+                <a class="link" href="https://github.com/DarkPlayerr" rel="noopener">GitHub</a>
+                <a class="link" href="https://t.me/dvrkplayer" rel="noopener">Telegram</a>
+            </div>
 
-        <footer> proudly <a href="https://github.com/DarkPlayerr/DarkPlayerr.github.io" rel="noopener" style="color:#E9333C">open source</a> </footer>
+            <a href="#projects"><span class="arrow">expand_more</span></a>
+        </div>
+    </header>
+
+    <div id="projects">
+        <span id="header-text">My Projects</span>
+            <div class="table">
+                <h2>Figma portfolio</h2>
+                <span id="text">My concepts made with Figma, open sourced.</span>
+                <div class="carousel" data-flickity='{ "autoPlay": 2100, "pauseAutoPlayOnHover": true, "fullscreen": true, "wrapAround": true, "pageDots": false}'>
+                    <img src="assets/img/darkOS concept.png" alt="darkOS concept" />
+                    <img src="assets/img/dynamicisland.png" alt="dynamic island concept" />
+                    <img src="assets/img/oxygenos13.png" alt="oxygen os 13 concept" />
+                    <img src="assets/img/wearos0.png" alt="wearos 4 concept (image 1)" />
+                    <img src="assets/img/wearos1.png" alt="wearos 4 concept (image 2)" />
+                    <img src="assets/img/wearos2.png" alt="wearos 4 concept (image 3)" />
+                    <img src="assets/img/wearos3.png" alt="wearos 4 concept (image 4)" />
+                    <img src="assets/img/wearos4.png" alt="wearos 4 concept (image 5)" />
+                  </div>
+
+                <div id="buttons">
+                    <a class="button" href="https://www.figma.com/@dvrkplayer" rel="noopener">Figma</a>
+                </div>
+            </div>
+
+            <div class="table">
+                <h2>DarkPapers</h2>
+                <span id="text">A free and open source Android app with high resolution wallpapers.</span>
+                <img class="img" src="assets/img/darkpapers.png" alt="a banner that has some phone mockups with wallpapers on them">
+                <div id="buttons">
+                    <a class="button" href="https://play.google.com/store/apps/details?id=com.dark.papers" rel="noopener">Play Store</a>
+                    <a class="button" href="https://github.com/DarkPlayerr/darkplayerr.github.io" rel="noopener">GitHub</a>
+                </div>
+            </div>
+
+            <div class="table">
+                <h2>DarkPlayerr.github.io</h2>
+                <span id="text">This website's source code.</span>
+                <div id="buttons">
+                    <a class="button" href="#header-content" rel="noopener">You're already here</a>
+                    <a class="button" href="https://github.com/DarkPlayerr/DarkPlayerr.github.io" rel="noopener">GitHub</a>
+                </div>
+            </div>
     </div>
-</div>
+
+    <div id="projects">
+        <h1 id="header-text">About me</h1>
+            <div class="table">
+                <h2>DarkPlayer</h2>
+                <span id="text">I’m a hobbyist Android developer and graphic designer. Currently going to a high school. Vietnamese but living in Poland.</span>
+            </div>
+    </div>
+
+    <footer>Made with love. <br> DarkPlayer© 2022.</footer>
 
 </body>
 </html>
