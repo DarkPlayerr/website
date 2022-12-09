@@ -92,7 +92,7 @@ body{
 
 #userName{
     width: 100%;
-    font-size: 35;
+    font-size: 35px;
     font-weight: bold;
     color: var(--white);
 }
@@ -155,17 +155,25 @@ a {
     color: var(--white);
 }
 
-.projects {
-    align-items: left;
+#projects {
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     flex: 1 auto;
     position: relative;
-    width: 75vw;
     max-width: 600px;
 }
 
-#header-text {
+#about {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    flex: 1 auto;
+    position: relative;
+    max-width: 600px;
+}
+
+.header-text {
     font-size: 30px;
     font-weight: bold;
     color: var(--white);
@@ -176,7 +184,7 @@ a {
     padding: 30px 0 10px 0;
 }
 
-#text {
+.text {
     color: var(--white);
     font-size: 18px;
     width: 100%;
@@ -202,18 +210,18 @@ h2 {
     border-radius: 15px;
 }
 
-#buttons {
+.buttons {
     margin-top: 15px;
 }
 
 .button {
-    padding: 6px 12px;
+    padding: 6px 14px;
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;
     color: var(--white);
     background-color: var(--grey1);
-    border-radius: 15px;
+    border-radius: 16px;
     margin-right: 5px;
 }
 

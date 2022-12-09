@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>DarkPlayer</title>
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" href="assets/img/icon.png"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <meta name="description" content="DarkPlayer's personal website.">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
@@ -18,7 +19,7 @@
         <div id="header-content">
             <img id="userPhoto" src="assets/img/logo.png" alt="DarkPlayer Logo">
             <h1 id="userName">DarkPlayer</h1>
-            <span id="text">17. tech geek. designer. he/him</span>
+            <span class="text">17. tech geek. designer. he/him</span>
             <div id="links">
                 <a class="link" href="https://twitter.com/dvrkplayer" rel="noopener">Twitter</a>
                 <a class="link" rel="me" href="https://androiddev.social/@darkplayer">Mastodon</a>
@@ -31,31 +32,32 @@
     </header>
 
     <div id="projects">
-        <span id="header-text">My Projects</span>
+        <span class="header-text">My Projects</span>
             <div class="table">
                 <h2>Figma portfolio</h2>
-                <span id="text">My concepts made with Figma, open sourced.</span>
-                <div class="carousel" data-flickity='{ "autoPlay": 2100, "pauseAutoPlayOnHover": true, "fullscreen": true, "wrapAround": true, "pageDots": false}'>
-                    <img src="assets/img/darkOS concept.png" alt="darkOS concept" />
-                    <img src="assets/img/dynamicisland.png" alt="dynamic island concept" />
-                    <img src="assets/img/oxygenos13.png" alt="oxygen os 13 concept" />
-                    <img src="assets/img/wearos0.png" alt="wearos 4 concept (image 1)" />
-                    <img src="assets/img/wearos1.png" alt="wearos 4 concept (image 2)" />
-                    <img src="assets/img/wearos2.png" alt="wearos 4 concept (image 3)" />
-                    <img src="assets/img/wearos3.png" alt="wearos 4 concept (image 4)" />
-                    <img src="assets/img/wearos4.png" alt="wearos 4 concept (image 5)" />
+                <span class="text">My concepts made with Figma, open sourced.</span>
+                <div class="carousel" data-flickity='{ "autoPlay": 2100, "pauseAutoPlayOnHover": true, "fullscreen": true, "wrapAround": true, "pageDots": false, "prevNextButtons": false}'>
+                    <img src="assets/img/darkOSconcept.png" alt="darkOS concept">
+                    <img src="assets/img/dynamicisland.png" alt="dynamic island concept">
+                    <img src="assets/img/oxygenos13.png" alt="oxygen os 13 concept">
+                    <img src="assets/img/wearos0.png" alt="wearos 4 concept (image 1)">
+                    <img src="assets/img/wearos1.png" alt="wearos 4 concept (image 2)">
+                    <img src="assets/img/wearos2.png" alt="wearos 4 concept (image 3)">
+                    <img src="assets/img/wearos3.png" alt="wearos 4 concept (image 4)">
+                    <img src="assets/img/wearos4.png" alt="wearos 4 concept (image 5)">
+                    <img src="assets/img/darkpapers2.png" alt="darkpapers promotional banner">
                   </div>
 
-                <div id="buttons">
+                <div class="buttons">
                     <a class="button" href="https://www.figma.com/@dvrkplayer" rel="noopener">Figma</a>
                 </div>
             </div>
 
             <div class="table">
                 <h2>DarkPapers</h2>
-                <span id="text">A free and open source Android app with high resolution wallpapers.</span>
+                <span class="text">A free and open source Android app with high resolution wallpapers.</span>
                 <img class="img" src="assets/img/darkpapers.png" alt="a banner that has some phone mockups with wallpapers on them">
-                <div id="buttons">
+                <div class="buttons">
                     <a class="button" href="https://play.google.com/store/apps/details?id=com.dark.papers" rel="noopener">Play Store</a>
                     <a class="button" href="https://github.com/DarkPlayerr/darkplayerr.github.io" rel="noopener">GitHub</a>
                 </div>
@@ -63,19 +65,19 @@
 
             <div class="table">
                 <h2>DarkPlayerr.github.io</h2>
-                <span id="text">This website's source code.</span>
-                <div id="buttons">
+                <span class="text">This website's source code.</span>
+                <div class="buttons">
                     <a class="button" href="#header-content" rel="noopener">You're already here</a>
                     <a class="button" href="https://github.com/DarkPlayerr/DarkPlayerr.github.io" rel="noopener">GitHub</a>
                 </div>
             </div>
     </div>
 
-    <div id="projects">
-        <h1 id="header-text">About me</h1>
+    <div id="about">
+        <h1 classs="header-text">About me</h1>
             <div class="table">
                 <h2>DarkPlayer</h2>
-                <span id="text">I’m a hobbyist Android developer and graphic designer. Currently going to a high school. Vietnamese but living in Poland.</span>
+                <span class="text">I’m a hobbyist Android developer and graphic designer. Currently going to a high school. Vietnamese but living in Poland.</span>
             </div>
     </div>
 
